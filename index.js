@@ -18,26 +18,31 @@ input.addEventListener("input", (e) => {
   if (input.value == 1) {
     money.textContent = "$8.00";
     view.textContent = "10K  PAGEVIEWS";
+    input.style.background="linear-gradient(to right,  hsl(174, 77%, 80%) 0%,hsl(224, 65%, 95%) 0%, hsl(224, 65%, 95%) 100%";
     chanishvna = money.textContent;
   }
   if (input.value == 2) {
     money.textContent = "$12.00";
     view.textContent = "50K  PAGEVIEWS";
+    input.style.background="linear-gradient(to right,  hsl(174, 77%, 80%) 25%,hsl(224, 65%, 95%) 0%, hsl(224, 65%, 95%) 75%";
     chanishvna = money.textContent;
   }
   if (input.value == 3) {
     money.textContent = "$16.00";
     view.textContent = "100K  PAGEVIEWS";
+    input.style.background="linear-gradient(to right,  hsl(174, 77%, 80%) 50%,hsl(224, 65%, 95%) 0%, hsl(224, 65%, 95%) 50%";
     chanishvna = money.textContent;
   }
   if (input.value == 4) {
     money.textContent = "$24.00";
     view.textContent = "500K  PAGEVIEWS";
+    input.style.background="linear-gradient(to right,  hsl(174, 77%, 80%) 75%,hsl(224, 65%, 95%) 0%, hsl(224, 65%, 95%) 25%";
     chanishvna = money.textContent;
   }
   if (input.value == 5) {
     money.textContent = "$36.00";
     view.textContent = "1M PAGEVIEWS";
+    input.style.background="linear-gradient(to right,  hsl(174, 77%, 80%) 100%, hsl(224, 65%, 95%) 0%";
     chanishvna = money.textContent;
   }
 
